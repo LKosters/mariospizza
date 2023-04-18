@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="Script.js"></script>
+    <link rel="stylesheet" href="css/Menu.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="Images/MarioPizza WEB Fotos/favicon.ico">
+    <title>Personeelspagina</title>
+</head>
+<body class="Background">
+    <!-- Navigatiebalk -->
+    <nav>
+        <ul class="nav">
+            <li><a href="Index.html">Home</a></li>
+            <li><a href="Pizza's.html">Pizza's</a></li>
+            <li><a href="Pasta's.html">Pasta's</a></li>
+            <li><a href="Bestellen.html">Bestellen</a></li>
+            <li><a href="Cursus.html">Cursus</a></li>
+            <li><a href="Over ons.html">Over ons</a></li>
+            <li><a href="LogIn.html">Log in</a></li>
+        </ul>
+    </nav>
+
+    <!-- Titel -->
+    <h2>Personeelspagina</h2>
+
+    <!-- Tekst -->
+    <p>Berekenen van de kostprijs van een pizza</p>
+
+    <p>Let op, een pizza van 35cm is 1,96 keer zo groot als de pizza van 25cm</p>
+
+    <!-- Invoervelden -->
+    <table>
+        <tr>
+            <th>Ingrediënt</th>
+            <th>Prijs per kilo</th>
+            <th>Nodig <span style="font-size: xx-small;">voor pizza 25cm (in gram)</span></th>
+            <th>Pizza (25 centimeter) €</th>
+            <th>Pizza (35 centimeter) €</th>
+        </tr>
+        <tr>
+            <td><Input id="Ingredient1"></Input></td>
+            <td><Input type="number" id="PrijsPerKilo1"></Input></td>
+            <td><Input type="number" id="Nodig1"></Input></td>
+            <td><Input readonly value="0" id="Pizza251"></Input></td>
+            <td><Input readonly value="0" id="Pizza351"></Input></td>
+        </tr>
+        <tr>
+            <td><Input id="Ingredient2"></Input></td>
+            <td><Input type="number" id="PrijsPerKilo2"></Input></td>
+            <td><Input type="number" id="Nodig2"></Input></td>
+            <td><Input readonly value="0" id="Pizza252"></Input></td>
+            <td><Input readonly value="0" id="Pizza352"></Input></td>
+        </tr>
+        <tr>
+            <td><Input id="Ingredient3"></Input></td>
+            <td><Input type="number" id="PrijsPerKilo3"></Input></td>
+            <td><Input type="number" id="Nodig3"></Input></td>
+            <td><Input readonly value="0" id="Pizza253"></Input></td>
+            <td><Input readonly value="0" id="Pizza353"></Input></td>
+        </tr>
+        <tr>
+            <td><Input id="Ingredient4"></Input></td>
+            <td><Input type="number" id="PrijsPerKilo4"></Input></td>
+            <td><Input type="number" id="Nodig4"></Input></td>
+            <td><Input readonly value="0" id="Pizza254"></Input></td>
+            <td><Input readonly value="0" id="Pizza354"></Input></td>
+        </tr>
+        <tr>
+            <td><Input id="Ingredient5"></Input></td>
+            <td><Input type="number" id="PrijsPerKilo5"></Input></td>
+            <td><Input type="number" id="Nodig5"></Input></td>
+            <td><Input readonly value="0" id="Pizza255"></Input></td>
+            <td><Input readonly value="0" id="Pizza355"></Input></td>
+        </tr>
+        <tr>
+            <td><Input id="Ingredient6"></Input></td>
+            <td><Input type="number" id="PrijsPerKilo6"></Input></td>
+            <td><Input type="number" id="Nodig6"></Input></td>
+            <td><Input readonly value="0" id="Pizza256"></Input></td>
+            <td><Input readonly value="0" id="Pizza356"></Input></td>
+        </tr>
+        <tr>
+            <td><Input id="Ingredient7"></Input></td>
+            <td><Input type="number" id="PrijsPerKilo7"></Input></td>
+            <td><Input type="number" id="Nodig7"></Input></td>
+            <td><Input readonly value="0" id="Pizza257"></Input></td>
+            <td><Input readonly value="0" id="Pizza357"></Input></td>
+        </tr>
+        <tr>
+            <td><Input id="Ingredient8"></Input></td>
+            <td><Input type="number" id="PrijsPerKilo8"></Input></td>
+            <td><Input type="number" id="Nodig8"></Input></td>
+            <td><Input readonly value="0" id="Pizza258"></Input></td>
+            <td><Input readonly value="0" id="Pizza358"></Input></td>
+        </tr>
+        <tr>
+            <td><br></td>
+        </tr>
+        <tr>
+            <td><Input readonly id="Kostprijs25cm" value="Kostprijs pizza 25cm"></Input></td>
+        </tr>
+        <tr>
+            <td><br></td>
+        </tr>
+        <tr>
+            <td><Input readonly id="Kostprijs35cm" value="Kostprijs pizza 35cm"></Input></td>
+        </tr>
+        <tr>
+            <td><br></td>
+        </tr>
+        <tr>
+            <td><button id="Bereken" onclick="Bereken_click()">Bereken Prijs</button></td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+    <br>
+
+    <!-- VoetTekst -->
+    <footer>
+        <p class="FooterTekst">@2020 Mario's pizzaria</p>
+        <p class="FooterTekst" id="FooterRight"><a class="ANormal" href="Levervoorwaarden.html">Levervoorwaarden</a></p>
+    </footer>
+</body>
+</html>

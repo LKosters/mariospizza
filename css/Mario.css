@@ -1,0 +1,165 @@
+/* Hele Pagina */
+body {
+    font-family: Arial, Helvetica;
+    color: #444;
+    background-color: white;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+/* Navigatiebalk */
+nav {
+    background-color: #444;
+    color: white;
+    margin-top: 40px;
+    height: 30px;
+    font-size: 26px;
+    
+}
+
+/* Navigatiebalk */
+a:hover {
+    background-color: rgb(0,146,70);
+}
+
+/* VoetTekst */
+footer {
+    font-size: 80%;
+}
+
+/* VoetTekst */
+.FooterTekst {
+    display: inline;
+}
+
+/* Navigatiebalk */
+.CurrentPage {
+    background-color: rgb(0,146,70);
+    color: black;
+}
+
+/* Navigatiebalk */
+.nav {
+    list-style-type: none;
+    
+}
+
+/* Navigatiebalk */
+li {
+    padding: 5px;
+    display: inline;
+}
+
+/* Linkjes */
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Afbeel;ding */
+.ImagesRestaurant {
+    width: 800px;
+}
+
+/* VoetTekst */
+#FooterRight {
+    margin-left: 700px;
+}
+
+/* Linkjes */
+.ANormal {
+    color: black;
+}
+
+/* Menu */
+.Menu {
+    display: inline;
+}
+
+/* Menu */
+#imgmenu {
+    width: 100px;
+}
+
+/* Gerechten */
+.PenI {
+    margin-left: 105px;
+}
+
+/* Tabellen */
+table {
+    border-bottom: gainsboro;
+    border-top: white;
+    border-right: white;
+    border-left: white;
+}
+
+/* Tabellen */
+th {
+    background-color: gainsboro;
+}
+
+/* .Jawol {
+    margin: auto;
+    display: block;
+    list-style-type: armenian;
+} */
+
+@media only screen and (max-width: 800px) {
+    .ImagesRestaurant {
+        width: 375px;
+    }
+
+    nav {
+        background-color: #444;
+        color: white;
+        margin-top: 40px;
+        height: 40px;
+        font-size: 17px;
+        
+    }
+
+    #FooterRight {
+        margin-left: 220px;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .ImagesRestaurant {
+        width: 150px;
+    }
+
+    nav {
+        background-color: #444;
+        color: white;
+        margin-top: 40px;
+        height: 50px;
+        font-size: 14px;
+        
+    }
+
+    #FooterRight {
+        margin-left: 0px;
+    }
+}
+
+@media only screen and (max-width: 150px) {
+    .ImagesRestaurant {
+        width: 150px;
+    }
+
+    nav {
+        background-color: #444;
+        color: white;
+        margin-top: 40px;
+        height: 115px;
+        font-size: 14px;
+        
+    }
+
+    #FooterRight {
+        margin-left: 0px;
+    }
+}
